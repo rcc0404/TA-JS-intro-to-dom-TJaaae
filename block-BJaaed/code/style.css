@@ -1,0 +1,48 @@
+
+
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+        background: oldlace;
+        color: #777;
+        font-family: sans-serif;
+        line-height: 1.15;
+        }
+
+    hr:last-child {
+        margin-right: 60%;
+    }
+
+    hr.image {
+        padding-bottom: 50%;
+    }
+    
+    .page {
+        padding: 0 2rem, 2rem, 2rem;
+    }
+
+    .archive{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 1em;
+    }
+
+    div.box {
+        padding: 1em;
+        background: #fff;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 20px 20px rgba(0,0,0,0.05);
+    }
+
+    button {
+        background: teal;
+        color: white;
+        border: ;
+    }
